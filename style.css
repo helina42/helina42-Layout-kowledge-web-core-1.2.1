@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2a4a5c;
+  margin: 0;
+}
+#bg {
+  width: 50%;
+  background-color: #eff6ff;
+}
+#twosec {
+  display: flex;
+  flex-direction: row;
+  background-color: #eff6ff;
+  padding: 20px;
+}
+#content {
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 75px;
+  height: 50px;
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  opacity: 1;
+  z-index: 12;
+}
+#bg > img {
+  height: 100%;
+  width: 100%;
+}
+
+#register {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+#fb {
+  background-color: #255a9b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 20px 7px 20px;
+}
+
+#ld {
+  background-color: #0076b6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 20px 7px 20px;
+}
+#ld img {
+  height: 20px;
+  padding: 10px;
+}
+
+#ld p {
+  color: #eeeeee;
+}
+#fb img {
+  height: 20px;
+}
+
+#fb p {
+  color: #eeeeee;
+}
+
+#hr {
+  padding: 10 px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #afafaf;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: "OR";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+#info input {
+  border: 1px solid #afafaf;
+  color: #333;
+  height: 35px;
+}
+
+#checkbox {
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#checkbox:checked {
+  border: 5px solid #3698fb;
+}
+
+#details {
+  color: #afafaf;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 10px #eeeeee;
+}
+
+#agree p {
+  padding: 20px;
+}
+
+button {
+  background-color: #3698fb;
+  border: 1px solid #3698fb;
+  color: #fff;
+  padding: 20px;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: #255a9b;
+}
+button:active {
+  background-color: #3698fb;
+}
